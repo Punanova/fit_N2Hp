@@ -6,6 +6,7 @@ import astropy.units as u
 
 rms=3.35E-2
 cube = pyspeckit.Spectrum('Core2_cent_N2Hp10.fits', error=np.ones(921)*rms)
+cube.error[:] = rms
 cube.xarr.refX = 93173.772e6*u.Hz
 cube.xarr.velocity_convention = 'radio'
 cube.xarr.convert_to_unit('km/s')
