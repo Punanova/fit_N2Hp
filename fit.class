@@ -17,3 +17,8 @@ file in Core2_cent_N2Hp_fit.30m
 find
 print fit /output fit.dat
 $more fit.dat
+set mode x -4 16
+set mode y -0.2 2.2
+pl
+vis
+hardcopy N2Hp_CLASS_fit.png /device PNG COLOR

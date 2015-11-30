@@ -19,3 +19,6 @@ cube.specfit(fittype='n2hp_vtau', guesses=[3.94, 1.0, 0, 0.309],
     minpars=[0, 0, -1, 0.05], maxpars=[30.,50.,1,1.0], fixed=[F,F,F,F])
 cube.plotter(errstyle='fill')
 cube.specfit.plot_fit()
+#set mode x -4 16
+#set mode y -0.2 2.2
+plt.savefig('N2Hp_pyspeckit_fit.png')
