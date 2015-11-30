@@ -1,0 +1,7 @@
+!
+! 30-NOV-2015 12:57:36
+! Input file  : Core2_cent_N2Hp_fit.30m
+! Input command: ANALYSE\PRINT fit /OUTPUT fit.dat
+!
+! NH3 Hyperfine structure fitting . . . . . . . . . .Area           Vlsr            Width          Opacity
+ 1 9   -30.000   -11.063    16.302   0.076      7.003   0.001      0.240   0.001      7.169   0.077      0.033   0.113
