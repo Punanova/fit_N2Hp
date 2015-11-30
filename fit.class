@@ -1,0 +1,19 @@
+file in Core2_cent_N2Hp.30m
+find
+get f
+set form full
+set unit v
+plot
+method hfs n2h+10.hfs
+min
+iter
+iter
+iter
+iter
+vis
+file out Core2_cent_N2Hp_fit.30m m
+write
+file in Core2_cent_N2Hp_fit.30m
+find
+print fit /output fit.dat
+$more fit.dat
