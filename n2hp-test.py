@@ -1,9 +1,6 @@
 import pyspeckit
 from pyspeckit.spectrum.models import n2hp
-from spectral_cube import SpectralCube
-import numpy as np
-from radio_beam import Beam
-from astropy.io import fits
+
 import astropy.units as u
 cube = pyspeckit.Spectrum('Core2_cent_N2Hp10.fits')
 cube.xarr.refX = 93173.772e6*u.Hz
